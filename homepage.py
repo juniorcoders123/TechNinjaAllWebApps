@@ -1,5 +1,5 @@
 import streamlit as st
-import webbrowser
+from bokeh.models.widgets import Div
 
 st.set_page_config(page_title='Streamlit Apps | TechNinja - Junior Coders', page_icon='😎', layout = 'wide', initial_sidebar_state = 'expanded')
 
@@ -32,4 +32,7 @@ page.app()
 
 visit_polybit_site = st.sidebar.button("Visit Polybit's Site!")
 if visit_polybit_site:
-    webbrowser.open('https://share.streamlit.io/juniorcoders123/polybit-apps-streamlit/main/homepage.py?activity=0')
+    js = "window.open('https://share.streamlit.io/juniorcoders123/polybit-apps-streamlit/main/homepage.py?activity=0')"  # New tab or window
+    html = '<img src onerror="{}">'.format(js)
+    div = Div(text=html)
+    st.bokeh_chart(div)
