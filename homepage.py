@@ -30,9 +30,5 @@ if selection:
 page = PAGES[selection]
 page.app()
 
-visit_polybit_site = st.sidebar.button("Visit Polybit's Site!")
-if visit_polybit_site:
-    js = "window.open('https://share.streamlit.io/juniorcoders123/polybit-apps-streamlit/main/homepage.py?activity=0')"  # New tab or window
-    html = '<img src onerror="{}">'.format(js)
-    div = Div(text=html)
-    st.bokeh_chart(div)
+visit_polybit = "[Visit Polybit's Site!](https://share.streamlit.io/juniorcoders123/polybit-apps-streamlit/main/homepage.py?activity=0)"
+st.sidebar.markdown(visit_polybit, unsafe_allow_html=True)
