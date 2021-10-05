@@ -10,8 +10,10 @@ import text_summarizer as ts
 import stockpredictor2 as sp2
 import temp as tp
 import quotegenerator as qgt
+import imagetosketchwebapp as imgsktch
 
 PAGES = {
+    "Sketch Artist": imgsktch,
     "QR Generator": qr,
      "Recipe Teller": rd,
      "Stock Predictor": sp2,
