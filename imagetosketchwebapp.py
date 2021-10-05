@@ -6,7 +6,7 @@ import base64
 from io import BytesIO
 
 
-def imgsktch():
+def app():
     def get_image_download_link(img):
         """Generates a link allowing the PIL image to be downloaded
         in:  PIL image
