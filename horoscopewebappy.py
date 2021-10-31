@@ -19,7 +19,7 @@ def app():
                  "Lucky Time - " + json.get("lucky_time"))
         return about
 
-    st.title("Junior Coders Online Horoscope")
+    st.title("Junior Coders Online Horoscope Teller")
     zodiacs = (
     "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius",
     "Pisces")
