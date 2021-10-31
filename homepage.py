@@ -11,8 +11,10 @@ import stockpredictor2 as sp2
 import temp as tp
 import quotegenerator as qgt
 import imagetosketchwebapp as imgsktch
+import horoscopewebappy as hwpy
 
 PAGES = {
+    "Horoscope Teller":hwpy,
     "Sketch Artist": imgsktch,
     "QR Generator": qr,
      "Recipe Teller": rd,
@@ -33,4 +35,6 @@ page = PAGES[selection]
 page.app()
 
 visit_polybit = "[Visit Polybit's Site!](https://share.streamlit.io/juniorcoders123/polybit-apps-streamlit/main/homepage.py?activity=0)"
+github_repo = '[Visit the GitHub repository](https://github.com/juniorcoders123/TechNinjaAllWebApps)'
 st.sidebar.markdown(visit_polybit, unsafe_allow_html=True)
+st.sidebar.markdown(github_repo, unsafe_allow_html=True)
