@@ -15,7 +15,7 @@ import horoscopewebappy as hwpy
 import imageresizerwebapp as irwa
 
 PAGES = {
-    "Image Resizer":irwa,
+    "Image Resizer [LATEST]":irwa,
     "Horoscope Teller":hwpy,
     "Sketch Artist": imgsktch,
     "QR Generator": qr,
