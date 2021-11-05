@@ -12,8 +12,10 @@ import temp as tp
 import quotegenerator as qgt
 import imagetosketchwebapp as imgsktch
 import horoscopewebappy as hwpy
+import imageresizerwebapp as irwa
 
 PAGES = {
+    "Image Resizer":irwa,
     "Horoscope Teller":hwpy,
     "Sketch Artist": imgsktch,
     "QR Generator": qr,
