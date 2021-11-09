@@ -1,7 +1,7 @@
 import streamlit as st
 from bokeh.models.widgets import Div
 
-st.set_page_config(page_title='Streamlit Apps | TechNinja - Junior Coders', page_icon='😎', layout = 'wide', initial_sidebar_state = 'expanded')
+st.set_page_config(page_title='Streamlit Apps | TechNinja - Junior Coders', page_icon='💸', layout = 'wide', initial_sidebar_state = 'expanded')
 
 #all my apps
 import qrcodewebapp as qr
