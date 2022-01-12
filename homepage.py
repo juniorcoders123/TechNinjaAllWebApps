@@ -13,9 +13,11 @@ import quotegenerator as qgt
 import imagetosketchwebapp as imgsktch
 import horoscopewebappy as hwpy
 import imageresizerwebapp as irwa
+import midi2aud as m2a
 
 PAGES = {
-    "Image Resizer [LATEST]":irwa,
+    "Midi to Audio[BRAND NEW]":m2a,
+    "Image Resizer":irwa,
     "Horoscope Teller":hwpy,
     "Sketch Artist": imgsktch,
     "QR Generator": qr,
