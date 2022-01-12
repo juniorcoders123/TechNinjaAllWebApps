@@ -19,3 +19,9 @@ matplotlib==3.3.2
 bokeh==2.4.0
 opencv-python-headless
 numpy==1.19.2
+mido
+pretty-midi
+pyfluidsynth
+requests
+scipy
+soundfile
