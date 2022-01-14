@@ -39,6 +39,6 @@ def app():
                 downloaded = True
             if downloaded:
                 st.video(video_1)
-                st.subheader("Download Completed. The file is saved as "+yt.title+".mp4 in your device.")
+                st.subheader("Video Loading Completed. To download click the 3 dots in the media player. You can also preview it here.")
         else:
             st.subheader("Sorry, this video can not be downloaded")
