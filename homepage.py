@@ -14,8 +14,10 @@ import imagetosketchwebapp as imgsktch
 import horoscopewebappy as hwpy
 import imageresizerwebapp as irwa
 import midi2aud as m2a
+import ytvideodownloader as ytvd
 
 PAGES = {
+    "YouTube Video Downloader[LATEST👍]":ytvd,
     "Midi to Audio[BRAND NEW]":m2a,
     "Image Resizer":irwa,
     "Horoscope Teller":hwpy,
