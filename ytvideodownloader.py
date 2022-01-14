@@ -26,19 +26,19 @@ def app():
             if yt.streams.filter(only_audio=True):
                 download_audio = st.button("Download Audio Only")
             if download_video:
-                st.spinner("Please Wait Patiently Video File is being downloaded.")
                 if choice == "Best Resolution":
-                    video.get_highest_resolution().download()
+                    video_1 = video.get_highest_resolution().download()
                     downloaded = True
                 else:
-                    video.get_lowest_resolution().download()
+                    video_1= video.get_lowest_resolution().download()
                     downloaded = True
 
             if download_audio:
-                st.spinner("Please Wait Patiently Audio File is being downloaded.")
-                video.filter(only_audio=True).first().download()
+
+                video_1 = video.filter(only_audio=True).first().download()
                 downloaded = True
             if downloaded:
+                st.video(video_1)
                 st.subheader("Download Completed. The file is saved as "+yt.title+".mp4 in your device.")
         else:
             st.subheader("Sorry, this video can not be downloaded")
