@@ -5,6 +5,7 @@ from gtts import gTTS
 
 def app():
   st.title("Image to Text Web App")
+  st.subheader("Developed with 💖 by TechNinja")
   st.write("Languages Supported[English, French, Spanish, German, Hindi, Bengali]")
   uploaded_image = st.file_uploader('Upload Image', type=['png','jpeg','jpg'])
   aud=st.checkbox("Want Audio for Extracted Text ?")
