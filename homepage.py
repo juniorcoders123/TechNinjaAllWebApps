@@ -18,7 +18,7 @@ import ytvideodownloader as ytvd
 import imagetotextwebapp as ittwa
 
 PAGES = {
-    "Image to Text Web App":ittwa,
+    "Image to Text Web App[LATEST 👍]":ittwa,
     "YouTube Video Downloader[BRAND NEW]":ytvd,
     "Midi to Audio":m2a,
     "Image Resizer":irwa,
