@@ -16,10 +16,12 @@ import imageresizerwebapp as irwa
 import midi2aud as m2a
 import ytvideodownloader as ytvd
 import imagetotextwebapp as ittwa
+import pixelartconvertor as itnac
 
 PAGES = {
-    "Image to Text Web App[LATEST 👍]":ittwa,
-    "YouTube Video Downloader[BRAND NEW]":ytvd,
+    "Image to NFT Art Convertor[LATEST ✨]":itnac,
+    "Image to Text Web App[BRAND NEW]":ittwa,
+    "YouTube Video Downloader":ytvd,
     "Midi to Audio":m2a,
     "Image Resizer":irwa,
     "Horoscope Teller":hwpy,
